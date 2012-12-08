@@ -2,8 +2,8 @@
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
   <Identity Name="ab753b7d-59bc-43fe-9525-a12c3c699f03" Publisher="CN=jvk" Version="1.0.0.0" />
   <Properties>
-    <DisplayName>LaughInABox</DisplayName>
-    <PublisherDisplayName>jvk</PublisherDisplayName>
+    <DisplayName>Punchline Detector</DisplayName>
+    <PublisherDisplayName>Jeppe Vammen Kristensen</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Prerequisites>
@@ -14,8 +14,8 @@
     <Resource Language="x-generate" />
   </Resources>
   <Applications>
-    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="LaughInABox.App">
-      <VisualElements DisplayName="LaughInABox" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="LaughInABox" ForegroundText="light" BackgroundColor="#5ACD28">
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="PunchlineDetector.App">
+      <VisualElements DisplayName="Punchline" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Humor is a complex area, sometime not appreacted by your piers. This is an app that ensures instant feedback, be it positive or negative. You can of course  predefine it for positive or negative feedback.  So the next time you need a response to that new &quot;That's what se said&quot; joke this is the app for you." ForegroundText="light" BackgroundColor="#5ACD28">
         <DefaultTile ShowName="allLogos" ShortName="Punchline" />
         <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#5ACD28" />
       </VisualElements>
