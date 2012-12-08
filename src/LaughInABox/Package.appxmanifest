@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="ab753b7d-59bc-43fe-9525-a12c3c699f03" Publisher="CN=jvk" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>LaughInABox</DisplayName>
+    <PublisherDisplayName>jvk</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="LaughInABox.App">
+      <VisualElements DisplayName="LaughInABox" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="LaughInABox" ForegroundText="light" BackgroundColor="#5ACD28">
+        <DefaultTile ShowName="allLogos" ShortName="Punchline" />
+        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#5ACD28" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
